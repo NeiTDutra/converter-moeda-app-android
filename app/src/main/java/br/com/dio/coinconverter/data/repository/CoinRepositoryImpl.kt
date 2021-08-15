@@ -37,4 +37,8 @@ class CoinRepositoryImpl(
     override fun list(): Flow<List<ExchangeResponseValue>> {
         return dao.findAll()
     }
+
+    private fun delete() {
+        TODO("Desenvolver exclusão de ítem")
+    }
 }
